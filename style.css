@@ -20,16 +20,23 @@ nav ul{
     /* padding: clamp(8px, 2vw, 16px) 12px; */
     flex-wrap: wrap;
 }
-nav ul li:last-child, a{
+nav ul li:last-child{
+    color: white;
+    background-color: black;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.get-started{
     color: white;
     background-color: black;
     padding: 8px 20px 8px 20px;
     border-radius: 10px;
     text-decoration: none;
-}
-a{
-    width: 170px;
-    height: 50px;
+    align-items: center;
 }
 header, .hero{
     background-color: #C8D7D9;
@@ -57,11 +64,12 @@ p{
 .payment-text{
     display:flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 }
 .man{
     /* width: 632px; */
-    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
 }
 .hero-bottom{
     display:flex;
