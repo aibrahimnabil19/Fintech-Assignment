@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.container{
+    max-width: 1000px;
+    /* min-width: 300px; */
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* padding: clamp(8px, 2vw, 16px) 12px; */
+    flex-wrap: wrap;
+}
+nav ul li:last-child{
+    color: white;
+    background-color: black;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+}
+header, .hero{
+    background-color: #C8D7D9;
+}
+.hero, .features, .payment, .cards, .stats, .started, footer{
+    display: flex;
+    padding: 0 10%;
+    /* margin: auto; */
+}
+h1{
+    font-weight: 800;
+    font-size: 80px;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.payment-text{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 15px;
+    /* justify-content: ; */
+}
+.man{
+    /* width: 632px; */
+    height: 600px;
+}
